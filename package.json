@@ -1,0 +1,24 @@
+{
+  "name": "hacker-news-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "Egor Kravchenko (kravchenko.egor@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "sw-precache-webpack-plugin": "^0.11.5"
+  }
+}
